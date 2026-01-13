@@ -1,4 +1,4 @@
-*STUDENT PERFORMANCE ANALYSIS PROJECT*
+*Student Performance Analysis using Python*
 
 
 *📌 Project Description*
@@ -21,6 +21,7 @@ performance differences across subjects.
 <img width="1000" height="600" alt="Figure_3" src="https://github.com/user-attachments/assets/5c183b4d-7a37-48b0-bd5e-3decc4368c7c" />
 
 
+
 *🛠️ Technologies Used*
 
 Python 🐍
@@ -32,6 +33,7 @@ NumPy
 Matplotlib
 
 VS Code
+
 
 *📂 Project Files*
 
