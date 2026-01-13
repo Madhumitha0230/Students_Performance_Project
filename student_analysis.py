@@ -17,4 +17,5 @@ plt.xlabel("Subject")
 
 for i,v in enumerate(avg):
     plt.text(i,v+1,str(round(v,1)),ha='center')
+    plt.savefig("average_scores.png")
 plt.show()
