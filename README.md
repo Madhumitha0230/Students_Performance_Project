@@ -1,4 +1,6 @@
-Student Performance Analysis Project
+STUDENT PERFORMANCE ANALYSIS PROJECT
+
+
 📌 Project Description
 
 This project analyzes student performance data using Python.
