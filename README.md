@@ -74,6 +74,14 @@ python student_enhanced.py
 Git & GitHub
 
 
+*🔍 Key Insights*
+
+- Female students have higher average scores in Reading and Writing.
+- Male students perform slightly better in Math.
+- Overall performance difference between genders is minimal.
+- Visualization helps clearly identify subject-wise strengths.
+-
+
 * 🚀 Future Enhancements*
 - Add overall performance analysis.
 - Include data from multiple schools.
