@@ -1,42 +1,41 @@
-<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/aaea39af-9563-49b6-8f5d-8df8565be270" />
-<img width="1366" height="655" alt="Figure_1" src="https://github.com/user-attachments/assets/26548b42-1539-429b-b42a-2763c14604eb" />
-# Student Performance Analysis
+# Student Performance Analysis Project 📊
 
-This project analyzes the performance of students in Math, Reading, and Writing, using Python and CSV data. Visualizations help to compare scores across subjects and between genders.
+This project analyzes student performance data using Python and CSV files.
+It calculates average scores and visualizes them using bar charts.
 
-## Features
+## 📁 Files in this Project
+- `student_analysis.py` – Main analysis script
+- `student_enhanced.py` – Improved visualization with gender comparison
+- `student_data.csv` – Student data
+- `student_performances.csv` – Performance scores dataset
 
-- Calculates average scores per subject.
-- Visualizes average scores using bar charts.
-- Compares performance between male and female students.
-- Saves graphs as high-quality images.
+## 🛠 Technologies Used
+- Python
+- Pandas
+- Matplotlib
+- NumPy
+- VS Code
+- Git & GitHub
 
-## Libraries Used
+## 📊 Sample Output
+![Average Scores](average_scores.png)
 
-- [Pandas](https://pandas.pydata.org/) — for CSV data processing.
-- [Matplotlib](https://matplotlib.org/) — for data visualization.
-
-## How to Run
-
-1. Clone the repository:
-
+## ▶ How to Run
 ```bash
-git clone https://github.com/Madhumitha0230
-
-2.Navigate to the project folder:
-
-cd Students_Performance_Project
-
-3.Create and activate virtual environment (Windows):
-
-python -m venv venv
-.\venv\Scripts\activate
-
-4.Install required packages:
-
-pip install pandas matplotlib
-
-5.Run the Python script:
+pip install pandas matplotlib numpy
 python student_analysis.py
 
-6.The graphs will appear and also be saved as images in the project folder.
+. What I Learned
+
+Reading CSV files
+
+Data analysis using Pandas
+
+Data visualization using Matplotlib
+
+GitHub version control
+
+
+
+---
+
