@@ -66,6 +66,14 @@ Install required libraries:
 pip install pandas matplotlib numpy
 
 
+* 🚀 Future Enhancements*
+- Add overall performance analysis.
+- Include data from multiple schools.
+- Perform correlation analysis between subjects.
+- Convert project into a dashboard using Streamlit.
+-
+
+
 Run the file:
 
 python student_enhanced.py
