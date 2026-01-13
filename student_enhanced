@@ -1,0 +1,41 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Load CSV
+df = pd.read_csv("student_performances.csv")
+
+# Group by Gender and calculate mean scores
+gender_avg = df.groupby("Gender")[["Math_Score", "Reading_Score", "Writing_Score"]].mean()
+
+# Subjects and positions
+subjects = gender_avg.columns
+x = np.arange(len(subjects))  # label locations
+width = 0.35
+
+# Plot
+plt.figure(figsize=(10,6))
+
+bars1 = plt.bar(x - width/2, gender_avg.loc["Male"], width, label='Male', color='dodgerblue', hatch='/', edgecolor='black')
+bars2 = plt.bar(x + width/2, gender_avg.loc["Female"], width, label='Female', color='lightcoral', hatch='\\', edgecolor='black')
+
+# Add numbers on top
+for bars in [bars1, bars2]:
+    for bar in bars:
+        yval = bar.get_height()
+        plt.text(bar.get_x() + bar.get_width()/2, yval + 0.5, round(yval,1), ha='center', fontsize=11, fontweight='bold')
+
+# Labels, title, grid
+plt.title("Average Scores by Subject and Gender", fontsize=18, fontweight='bold')
+plt.xlabel("Subjects", fontsize=14)
+plt.ylabel("Average Score", fontsize=14)
+plt.xticks(x, subjects, fontsize=12)
+plt.ylim(0, 100)
+plt.legend(fontsize=12)
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+
+# Save figure
+plt.savefig("gender_comparison_scores.png", dpi=300, bbox_inches='tight')
+
+# Show plot
+plt.show()
