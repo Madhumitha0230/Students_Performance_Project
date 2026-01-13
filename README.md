@@ -1,3 +1,6 @@
+<img width="1000" height="600" alt="Figure_3" src="https://github.com/user-attachments/assets/f04d0a09-1129-4a19-bfdb-55315f815e91" />
+<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/f4b13a42-14f4-4734-940b-1f9c1d4e80c8" />
+<img width="1366" height="655" alt="Figure_1" src="https://github.com/user-attachments/assets/f0721bfd-6158-4e76-a018-a6c57f6bef25" />
 # Student Performance Analysis Project 📊
 
 This project analyzes student performance data using Python and CSV files.
