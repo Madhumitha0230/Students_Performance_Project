@@ -1,3 +1,4 @@
+<img width="1000" height="600" alt="Figure_3" src="https://github.com/user-attachments/assets/7da69e48-1c20-4c47-ac55-9c98fa2e257d" />
 <img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/e0258fd1-14c5-45c5-9c84-d3dd81112003" />
 <img width="1366" height="655" alt="Figure_1" src="https://github.com/user-attachments/assets/2e41b526-e1dd-4c55-89f4-af0699e2cda6" />
 # Student Performance Analysis Project 📊
