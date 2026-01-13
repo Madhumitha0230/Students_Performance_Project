@@ -1,82 +1,67 @@
-<img width="1000" height="600" alt="Figure_3" src="https://github.com/user-attachments/assets/f04d0a09-1129-4a19-bfdb-55315f815e91" />
-<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/f4b13a42-14f4-4734-940b-1f9c1d4e80c8" />
-<img width="1366" height="655" alt="Figure_1" src="https://github.com/user-attachments/assets/f0721bfd-6158-4e76-a018-a6c57f6bef25" />
-# Student Performance Analysis Project 📊
+Student Performance Analysis Project
+📌 Project Description
 
-This project analyzes student performance data using Python and CSV files.
-It calculates average scores and visualizes them using bar charts.
+This project analyzes student performance data using Python.
+The dataset is stored in CSV format and the analysis focuses on
+comparing average scores of students based on gender.
 
-# Student Performance Analysis
+Visualizations are created using Matplotlib to clearly understand
+performance differences across subjects.
 
-This project analyzes the performance of students in Math, Reading, and Writing, using Python and CSV data. Visualizations help to compare scores across subjects and between genders.
-
-## Features
-
-- Calculates average scores per subject.
-- Visualizes average scores using bar charts.
-- Compares performance between male and female students.
-- Saves graphs as high-quality images.
-
-## Libraries Used
+Libraries Used
 
 - [Pandas](https://pandas.pydata.org/) — for CSV data processing.
-- [Matplotlib](https://matplotlib.org/) — for data visualization.
+- [Matplotlib](https://matplotlib.org/) — for data visualization.<img width="1366" height="655" alt="Figure_1" src="https://github.com/user-attachments/assets/8c947df8-5924-4eb0-b4e5-8ed39738eb0d" />
+<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/bf76ac8f-eba6-4792-b25f-93df37a11c40" />
+<img width="1000" height="600" alt="Figure_3" src="https://github.com/user-attachments/assets/5c183b4d-7a37-48b0-bd5e-3decc4368c7c" />
 
-## How to Run
 
-1. Clone the repository:
+🛠️ Technologies Used
 
-```bash
-git clone https://github.com/Madhumitha0230/Students_Performance_Project.git
+Python 🐍
 
-## 📁 Files in this Project
-- `student_analysis.py` – Main analysis script
-- `student_enhanced.py` – Improved visualization with gender comparison
-- `student_data.csv` – Student data
-- `student_performances.csv` – Performance scores dataset
+Pandas
 
-## 🛠 Technologies Used
-- Python
-- Pandas
-- Matplotlib
-- NumPy
-- VS Code
-- Git & GitHub
+NumPy
 
-## 📊 Sample Output
-![Average Scores](average_scores.png)
+Matplotlib
 
-## ▶ How to Run
-```bash
+VS Code
+
+📂 Project Files
+
+student_enhanced.py – Main Python script for analysis and graph
+
+student_analysis.py – Basic analysis file
+
+student_data.csv – Dataset
+
+student_performances.csv – Dataset
+
+gender_comparison_scores.png – Generated graph
+
+README.md – Project documentation
+
+📈 Output
+
+Bar chart showing Average Scores by Subject and Gender
+
+Graph is displayed and also saved as an image file
+
+▶️ How to Run the Project
+
+Clone the repository
+
+Open project folder in VS Code
+
+Install required libraries:
+
 pip install pandas matplotlib numpy
-python student_analysis.py
 
-# Student Performance Analysis Project 📊
 
-This project analyzes student performance data using Python and CSV files.
-It calculates average scores and visualizes them using bar charts.
+Run the file:
 
-## 📁 Files in this Project
-- `student_analysis.py` – Main analysis script
-- `student_enhanced.py` – Improved visualization with gender comparison
-- `student_data.csv` – Student data
-- `student_performances.csv` – Performance scores dataset
+python student_enhanced.py
 
-## 🛠 Technologies Used
-- Python
-- Pandas
-- Matplotlib
-- NumPy
-- VS Code
-- Git & GitHub
 
-## 📊 Sample Output
-![Average Scores](average_scores.png)
-
-## ▶ How to Run
-```bash
-pip install pandas matplotlib numpy
-python student_analysis.py
-<img width="1000" height="600" alt="Figure_3" src="https://github.com/user-attachments/assets/7da69e48-1c20-4c47-ac55-9c98fa2e257d" />
-<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/e0258fd1-14c5-45c5-9c84-d3dd81112003" />
-<img width="1366" height="655" alt="Figure_1" src="https://github.com/user-attachments/assets/2e41b526-e1dd-4c55-89f4-af0699e2cda6" />
+Git & GitHub
