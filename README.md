@@ -1,3 +1,5 @@
+<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/aaea39af-9563-49b6-8f5d-8df8565be270" />
+<img width="1366" height="655" alt="Figure_1" src="https://github.com/user-attachments/assets/26548b42-1539-429b-b42a-2763c14604eb" />
 # Student Performance Analysis
 
 This project analyzes the performance of students in Math, Reading, and Writing, using Python and CSV data. Visualizations help to compare scores across subjects and between genders.
